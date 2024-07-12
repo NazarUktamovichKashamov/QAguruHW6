@@ -8,6 +8,7 @@ import pandas as pd
 
 from set_path import ZIP_FILE
 
+
 def test_check_pdf_in_archive():
     file_name = 'sample2.pdf'
     with ZipFile(ZIP_FILE) as zip_file:
